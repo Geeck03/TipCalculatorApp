@@ -17,7 +17,6 @@ struct FancyTextMod: ViewModifier {
             .font(.custom("Avenir", size: 20))
             .fontWeight(.semibold)
             .padding(3.5)
-            
             .background(
                 RoundedRectangle(cornerRadius: 12)
                     .fill(Color.white)
